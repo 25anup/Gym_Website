@@ -1,0 +1,98 @@
+<html>
+<head>
+<title></title>
+<link rel="stylesheet" type="text/css" href="stylehello.css" >
+<link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+<style>
+input[type=submit]{
+  background-color: white; 
+  color: black; 
+  border: 2px solid #B45353;
+  color: black;
+  padding: 8px 16px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 10px 18px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+input[type=submit]:hover{
+  background-color: #B45353;
+  color: white;
+}
+</style>
+</head>
+<body>
+<header>
+<div class="container">
+	<div class="logo">
+	  <a href="home.html"><img src="logo.jpg"/></a>
+<div class="nav"><ul>
+<li><a href="home.html">HOME</a></li>
+<li><a href="facilities.html">FACILITIES</a></li>
+<li><a href="Exercies.html">EXERCISE</a></li>
+<li><a href="workouts.html">WORKOUTS</a></li>
+<li><a href="contactus.html">CONTACT US</a></li>
+</ul></div>
+
+	</div>
+</div>
+</header>
+<button onclick="topFunction()" id="myBtnt" title="Go to top">Up &uarr;</button>
+<h1 style=" font-family:bold; margin:30px;">
+	<p align="center"style="color:#505A6E;">CONTACT INFO</p>
+	<marquee style="color:#B45353; font-family:'press start 2p'; margin-top:10px;">GET IN TOUCH WITH US </marquee>
+			<hr width="99%" color="#B45353"/>
+	</h1>
+		<div class="contact grid-col-2 ">
+			<a href="mailto:mauryashub8767@gmail.com">E-MAIL US<br/>mauryashub8767@gmail.com</a>
+		</div>
+		<div class="contact grid-col-2">
+			<a href="tel:07021987819">CALL US <br/>+91 7021987819</a>
+		</div>
+<form class="contained" method="post" action="form.php">
+<div class=" contained center">
+<b> First Name
+    <input type="text"  name="firstname" placeholder="Your name..">
+    Last Name
+    <input type="text" id="lastname" name="lastname" placeholder="Your last name..">
+	E-mail
+	<input type="email" name="email" placeholder="Your mail id.."/>
+    Phone No.
+	<input type="tel" name="phone" placeholder="Your phone no.."/>
+
+	Subject
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+</b>
+</div>
+</form><br/>
+<pre>          </pre>
+<hr width="1550px"color="#B45353" style="height:1px;"/>
+<div>
+<div class="footer">
+&copy;2019 ALL RIGHT RESERVED SHUBH Inc.| DEVELOPED BY SHUBH
+</div>
+<script>
+var mybutton = document.getElementById("myBtnt");
+
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+</body>
+</html>
+</div>

@@ -1,0 +1,92 @@
+<html>
+<head>
+<title></title>
+<link rel="stylesheet" type="text/css" href="stylehello.css" >
+</head>
+<body>
+<header>
+<div class="container">
+	<div class="logo">
+	 <a href="home.html"> <img src="logo.jpg"/></a>
+<div class="nav"><ul>
+<li><a href="home.html">HOME</a></li>
+<li><a href="facilities.html">FACILITIES</a></li>
+<li><a href="Exercies.html">EXERCISE</a></li>
+<li><a href="workouts.html">WORKOUTS</a></li>
+<li><a href="contactus.html">CONTACT US</a></li>
+</ul></div>
+	</div>
+</div>
+</header>
+<button onclick="topFunction()" id="myBtnt" title="Go to top">Up &uarr;</button>
+
+<div class="section-title">
+	<h1 style="color:#505A6E; font-family:bold; margin:30px;" align="center">
+			<span>OUR FACILITIES</span>
+			<hr width="99%" color="#B45353"/>
+	</h1>
+</div>
+<div class="our-row">
+	<div class="object">
+	<img src="crossfit.jpg"/>
+	<h3>Crossfit Training</h3>
+	</div>
+	<div class="object">
+	<img src="gym.jpg"/>
+	<h3>GYM</h3>
+	</div>
+	<div class="object">
+	<img src="cardiofit.jpg"/>
+	<h3>Cardio</h3>
+	</div>
+	<div class="object">
+	<img src="1.jpg"/>
+	<h3>Personal Training</h3>
+	</div>
+</div>
+<div class="our-row">
+	<div class="object">
+	<img src="functional.jpg"/>
+	<h3>functional Training</h3>
+	</div>
+	<div class="object">
+	<img src="shower.jpg"/>
+	<h3>Lockers,Shower</h3>
+	</div>
+	<div class="object">
+	<img src="diet.jpg"/>
+	<h3>Diet Programme</h3>
+	</div>
+	<div class="object">
+	<img src="guide.jpg"/>
+	<h3>Fat Loss,Weight Gain</h3>
+	</div>
+</div>
+<hr width="1550px"color="#B45353" style="height:1px;"/>
+<div>
+<div class="footer">
+&copy;2019 ALL RIGHT RESERVED SHUBH Inc.| DEVELOPED BY SHUBH
+</div>
+<script>
+//Get the button
+var mybutton = document.getElementById("myBtnt");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+</body>
+</html>
